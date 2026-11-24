@@ -1,5 +1,9 @@
 import java.util.Scanner;
 public class A7 {
+    /**
+     * 依序輸入姓名（nextLine 可含空白）、年齡、身高、餘額並印出，
+     * 再用 if / else if 依年齡、身高、餘額判斷能不能看電影。
+     */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String name;

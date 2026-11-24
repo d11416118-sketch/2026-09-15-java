@@ -1,5 +1,9 @@
 import java.util.Scanner;
 public class A6 {
+    /**
+     * 用 Scanner 讀入姓名、年齡、身高後格式化印出。
+     * 示範 next() 只讀到空白前，nextLine() 才會讀整行。
+     */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String name;

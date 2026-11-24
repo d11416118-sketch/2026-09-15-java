@@ -1,5 +1,9 @@
 import java.util.Scanner;
 public class A8 {
+    /**
+     * 輸入分數，用 if / else if 判斷成績等第 A/B/C/D；
+     * 分數大於 100 或小於 0 時顯示輸入錯誤的訊息。
+     */
     public static void main(String[] args) {
        Scanner sc = new Scanner(System.in);
         int n;

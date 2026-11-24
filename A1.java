@@ -3,6 +3,10 @@
  */
 public class A1 {
 
+    /**
+     * 示範基本數值型別：int 超過最大值會溢位變成最小值、
+     * 超過 int 範圍的整數要加 L 成為 long、float 常數要加 F，並印出各變數的值。
+     */
     public static void main(String[] args) {
         int a = Integer.MAX_VALUE + 1; //最大值2147483647，超過int範圍會變成最小值 
         

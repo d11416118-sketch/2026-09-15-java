@@ -1,4 +1,7 @@
 public class A2 {
+    /**
+     * 示範遞增運算子：後置 b++ 先使用原值再加 1，前置 ++c 先加 1 再使用。
+     */
     public static void main(String[] args) {
         /*
         a++ 先做動作在+1
